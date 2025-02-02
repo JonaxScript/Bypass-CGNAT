@@ -207,13 +207,13 @@ To prevent unauthorized access, use SSH key authentication and dynamically allow
 
 #### 1. Create a script
 ```bash
-nano /update-ssh-access.sh
+nano /dynamic-ssh-access.sh
 ```
-Paste the provided script.
+Paste the provided script. https://github.com/JonaxScript/DynDNS-SSH-Iptables
 
 #### 2. Automate execution with crontab (every 5 minutes):
 ```bash
-*/5 * * * * root /path/to/update-ssh-access.sh
+*/5 * * * * root /path/to/dynamic-ssh-access.sh
 ```
 
 ---
